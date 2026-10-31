@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nightvision",
+  "version": "${version}",
+  "name": "Spawn Night Vision",
+  "description": "Gives you permanent night vision whenever you join or respawn.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.nightvision.NightVisionMod"] },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
